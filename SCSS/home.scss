@@ -182,12 +182,12 @@ span {
   // background-color: $greyMid2 !important;
   text-align: center;
   color: white;
-  padding: 2px;
+  // padding: 2px;
   // height: 100px !important;
-  border: 2px solid $greyMid;
+  border: solid $greyMid;
   box-shadow: inset 0 0 0 10px $greyMid;
-  max-height: 100%;
-  max-width: 100%;
+  max-height: 50%;
+  max-width: 50%;
 }
 
 .owl-prev, .owl-next {
@@ -208,6 +208,7 @@ span {
 
 
 .flex {
+  // position: fixed;
   padding: 0;
   margin: 0;
   list-style: none;

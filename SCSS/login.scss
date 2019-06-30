@@ -20,6 +20,9 @@ width: 100%;
 height: 100%;
 padding-top: 60px;
 background-color: $black;
+background-image: url(/MEDIA/SURF_GIF.GIF);
+background-repeat: no-repeat;
+background-size: cover;
 opacity: 0.95;
 & .loginModalContent {
     background-color: $white;

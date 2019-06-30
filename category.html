@@ -41,7 +41,7 @@
 
     <!--Browser Icon-->
     <link rel="shortcut icon" href="/images/system/favicon.ico" />
-    <link rel="icon" type="image/ico" href="MEDIA/Surf.png" />
+    <link rel="icon" type="image/ico" href="MEDIA/SURF.PNG" />
 
     <!--Google Fonts ++ Awesome Fonts Reference-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap" rel="stylesheet">
@@ -84,8 +84,8 @@
 <body>
     <!-- MENU [START]-->
     <section id="jsMenu" class="menuContainer">
-        <a href="#" class="logo" title="Logo"><i class="fab fa-adn logoAnim"></i></a>
-        <a href="#" class="hide" title="Women">Women</a>
+        <a href="/index.html" class="logo" title="Logo"><i class="fab fa-adn logoAnim"></i></a>
+        <a href="/category.html" class="hide" title="Women">Women</a>
         <a href="#" class="hide" title="Men">Men</a>
         <a href="#" class="hide" title="Kids">Kids</a>
         <a href="#" class="hide" title="Boards">Boards</a>
@@ -101,5 +101,77 @@
         </div>
     </section>
     <!-- MENU [END]-->
+
+    <!-- AMR | MODAL AS A LOGIN PANEL-->
+    <section id="login" class="loginModal">
+  
+            <form class="loginModalContent animate" action="#">
+              <div class="loginModalAvatar"> <!-- imgContainer -->
+                <span class="btnClose" id="btnCloseBtn" title="Close Login Panel"><i class="far fa-times-circle"></i></span>
+                <img src="/MEDIA/SURF.PNG" alt="Avatar" class="avatar">
+              </div>
+          
+              <div class="containerModal">
+                <label for="userName"><b>Username</b></label>
+                <input type="text" placeholder="USERNAME" name="userName" autocomplete="Username" required>
+          
+                <label for="userPassword"><b>Password</b></label>
+                <input type="password" placeholder="PASSWORD" name="userPassword" autocomplete="Password" required>
+                  
+                <button type="submit" href="#" id="btnLogin">LOGIN</button>
+                <!-- <label>
+                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label> -->
+              </div>
+          
+              <div class="containerModal bottom">
+                <button type="button" class="btnCancel" id="btnCancelBtn">Cancel</button>
+                <button type="button" class="btnRecover">Forgot Password?</button>
+              </div>
+            </form>
+        </section>
+        <!-- MODAL-LOGIN END -->
+
+    <!------------------- PRODUCTS WOMEN | 4 COLUMNS ------------------->
+	
+    <!------------------- PRODUCTS WOMEN END ------------------->
+
+
+
+    <!-- FOOTER START -->
+    <ul class="footer flex">
+        <ul class="item flex-item">Collection
+            <li>Women</li>
+            <li>Men</li>
+            <li>Kids</li>
+            <li>Boards</li>
+        </ul>
+        <ul class="item flex-item">Site
+                <li>Terms of Service</li>
+                <li>Privacy Policy</li>
+                <li>Copyright Policy</li>
+                <li>Support</li>
+        </ul>
+        <ul class="item flex-item">Shop
+                <li>About Us</li>
+                <li>Shipping</li>
+                <li>Payment</li>
+                <li>Contacts</li>
+        </ul>
+        <ul class="item flex-item">Social
+                <li style="text-align: center"><i class="fab fa-twitter"></i></li>
+                <li style="text-align: center"><i class="fab fa-instagram"></i></li>
+                <li style="text-align: center"><i class="fab fa-facebook"></i></li>
+                <li style="text-align: right" class="amr">Aelton Mota Reis <sup> &copy; <span id="year" class="amr"></span></sup> </li>
+        </ul>
+        <!-- <li class="item flex-item">5</li> -->
+      </ul>
+<!-- FOOTER END -->          
+
+<!-- JavaScript Code Reference -->
+<script type="text/javascript" src="JS/menuJs.js"></script>
+
+
 </body>
+
 </html>
