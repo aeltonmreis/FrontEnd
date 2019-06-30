@@ -1,0 +1,122 @@
+.loginModal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  padding-top: 60px;
+  background-color: #3DC0F1;
+  background-image: url(/MEDIA/SURF_GIF.GIF);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.95;
+}
+
+.loginModal .loginModalContent {
+  background-color: #ffffff;
+  margin: 5% auto 15% auto;
+  border: 2px solid #990000;
+  width: 70%;
+}
+
+.loginModal .loginModalContent .loginModalAvatar {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.loginModal .loginModalContent .loginModalAvatar .btnClose {
+  position: absolute;
+  right: 45px;
+  top: 0;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.loginModal .loginModalContent .loginModalAvatar .avatar {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.loginModal .loginModalContent .containerModal {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.loginModal .loginModalContent .containerModal .bottom {
+  padding-bottom: 16px;
+}
+
+.loginModal input {
+  width: 100%;
+  padding: 12px 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #990000;
+  box-sizing: border-box;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.loginModal label {
+  color: #ffffff;
+}
+
+.loginModal button {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 2px solid #990000;
+  cursor: pointer;
+  width: 100%;
+}
+
+.loginModal button :hover {
+  opacity: 0.9;
+}
+
+.loginModal .btnCancel, .loginModal .btnRecover {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #1a1a1a;
+  border: 2px solid #ffffff;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
