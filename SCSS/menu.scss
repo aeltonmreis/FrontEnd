@@ -1,0 +1,123 @@
+$greyLight: #bfbfbf;
+$grey: #e6e6e6;
+$greyMid: #808080;
+$greyMid2: #a6a6a6;
+$greyDark: #1a1a1a;
+$white: #ffffff;
+$black: #000000;
+$orange: #ffa500;
+$green: #009933;
+$red:  #990000;
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+input:focus {
+  outline:none !important;
+}
+
+.searchInput{
+ padding: 20px 15px;
+ display: none;
+}
+
+.menuContainer {
+  overflow: hidden;
+  background-color: $white;
+  margin-bottom: 30px;
+  // position: fixed;
+  & a {
+    float: left;
+    display: block;
+    color: $black;
+    text-align: center;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  & .logo {
+    display: block;
+    font-size:30px;
+    padding: 15px 15px ;
+    text-align: center;
+    stroke: $white;
+    stroke-width: 30px;
+  }
+  & a.logo:hover {
+    border: 1px solid $black;
+    display: block;
+    font-size:30px;
+    text-align: center;
+    // background-color: $black;
+    color: $white;
+    border: 1px solid $black;
+  }
+  & .menuContainerRight {
+    float: right;
+    text-decoration: none;
+    & a i {
+      font-size:30px;
+    }
+  }
+  & a:hover {
+    background-color: $red;
+    color: $white;
+    border: 1px solid $black;
+    stroke: $black;
+    stroke-width: 30px;
+  }
+  & .burguer {
+    display: none;
+    text-shadow: 2px 2px $red;
+  }
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    color: $black;
+    width: 80%;
+    left: calc(10% - 5px);
+    right: 50%;
+    border-top: 2px solid $grey;
+    margin-top:100px;
+}
+}
+
+  @media screen and (max-width: 900px) {
+    .menuContainer a:not(:first-child) {
+      display: none;
+    }
+    .menuContainer a.burguer {
+      float: right;
+      display: block;
+    }
+    /* AMR | REMOVE NAVBAR MENU PSEUDO ELEMENT [AFTER] WHEN ON MOBILE MODE */
+    .menuContainer:after {
+      content: none;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .menuContainer.responsive {
+      position: relative;
+    }
+    .menuContainer.responsive .burguer {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .menuContainer.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+  #loginName1 {
+    display: block;
+  }
+  #loginName2 {
+    display: none;
+  }

@@ -1,0 +1,498 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+.searchInput {
+  padding: 20px 15px;
+  display: none;
+}
+
+.menuContainer {
+  overflow: hidden;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.menuContainer a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 20px 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.menuContainer .logo {
+  display: block;
+  font-size: 30px;
+  padding: 15px 15px;
+  text-align: center;
+  stroke: #ffffff;
+  stroke-width: 30px;
+}
+
+.menuContainer a.logo:hover {
+  border: 1px solid #000000;
+  display: block;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.menuContainer .menuContainerRight {
+  float: right;
+  text-decoration: none;
+}
+
+.menuContainer .menuContainerRight a i {
+  font-size: 30px;
+}
+
+.menuContainer a:hover {
+  background-color: #990000;
+  color: #ffffff;
+  border: 1px solid #000000;
+  stroke: #000000;
+  stroke-width: 30px;
+}
+
+.menuContainer .burguer {
+  display: none;
+  text-shadow: 2px 2px #990000;
+}
+
+.menuContainer:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  color: #000000;
+  width: 80%;
+  left: calc(10% - 5px);
+  right: 50%;
+  border-top: 2px solid #e6e6e6;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 900px) {
+  .menuContainer a:not(:first-child) {
+    display: none;
+  }
+  .menuContainer a.burguer {
+    float: right;
+    display: block;
+  }
+  /* AMR | REMOVE NAVBAR MENU PSEUDO ELEMENT [AFTER] WHEN ON MOBILE MODE */
+  .menuContainer:after {
+    content: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .menuContainer.responsive {
+    position: relative;
+  }
+  .menuContainer.responsive .burguer {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .menuContainer.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+#loginName1 {
+  display: block;
+}
+
+#loginName2 {
+  display: none;
+}
+
+body {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+  min-width: 320px;
+  margin-top: 50px;
+}
+
+.hero h1:hover {
+  text-shadow: 2px 2px #990000;
+}
+
+.hero .wrapper {
+  display: inline-flex;
+}
+
+.hero .wrapper .btnBigBottom {
+  position: relative;
+  border: 2px solid #bfbfbf;
+  padding: 10px;
+  text-decoration: none;
+  border-right: none;
+  width: 250px;
+  text-align: center;
+}
+
+.hero .wrapper .btnBigBottom.orange {
+  background-color: orange;
+  border-color: orange;
+  color: #fff;
+  width: 60px;
+}
+
+.hero .mailLabel01 {
+  color: #ffffff !important;
+  background-color: #990000 !important;
+  padding: 11px;
+  display: none;
+}
+
+.hero .mailLabel02 {
+  color: #ffffff !important;
+  background-color: #990000 !important;
+  padding: 11px;
+  display: none;
+}
+
+.hero .mailLabel03 {
+  color: #ffffff !important;
+  background-color: #009933 !important;
+  padding: 11px;
+  display: none;
+}
+
+.hero h1 {
+  margin-bottom: 20px;
+}
+
+.hero p {
+  margin-bottom: 35px;
+}
+
+.hero .heroBtn {
+  border: 2px solid #000000;
+  padding: 10px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.grid {
+  max-width: 1180px;
+  width: 100%;
+  /*margin: 0 auto;*/
+  margin: 50px auto;
+  background: #bfbfbf;
+  height: 885px;
+  font-size: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.grid .coll {
+  font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
+  max-width: 25%;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+  background: blue;
+}
+
+.grid .coll .square {
+  height: 295px;
+  width: 100%;
+  background: green;
+  border: 1px solid #ccc;
+}
+
+.grid .coll .square.light {
+  background: #bfbfbf;
+}
+
+.grid .coll .square.mid {
+  background: #808080;
+}
+
+.grid .coll .square.mid2 {
+  background: #a6a6a6;
+}
+
+.grid .coll .square.dark {
+  background: #1a1a1a;
+  color: #ffffff;
+}
+
+.grid .coll .square article {
+  position: relative;
+  top: 50%;
+  transform: translatey(-50%);
+  /* width:90px; */
+  text-align: center;
+  margin: 0 auto;
+  font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.grid .coll .square.big {
+  height: 590px;
+  background: #bfbfbf;
+}
+
+.grid figure {
+  text-align: center;
+  display: inline-block;
+  padding: 0 15px;
+  position: relative;
+  font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.grid figure:before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 2px;
+  background: #ffffff;
+  left: 0;
+  top: 12px;
+  position: absolute;
+  color: #ffffff;
+}
+
+.grid figure:after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 2px;
+  background: #ffffff;
+  right: 0;
+  top: 12px;
+  position: absolute;
+}
+
+.logoAnim {
+  -moz-transition: all 2s linear;
+  -webkit-transition: all 2s linear;
+  transition: all 2s linear;
+}
+
+.logoAnim _180 {
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+span {
+  text-transform: uppercase;
+}
+
+.owl-item {
+  text-align: center;
+  color: white;
+  padding: 2px;
+  border: 2px solid #808080;
+  box-shadow: inset 0 0 0 10px #808080;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.owl-prev, .owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.owl-prev {
+  left: -2rem;
+  font-size: 30px;
+  color: #990000;
+}
+
+.owl-next {
+  right: -2rem;
+  font-size: 30px;
+  color: #990000;
+}
+
+.flex {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.flex ul {
+  text-transform: uppercase;
+  text-align: center;
+  color: #990000;
+}
+
+.flex ul li {
+  list-style: none;
+  text-transform: initial;
+  color: #000000;
+}
+
+.flex ul .amr {
+  font-family: 'Pacifico', sans-serif;
+  font-size: 10px;
+}
+
+#year {
+  color: #990000;
+}
+
+.loginModal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  padding-top: 60px;
+  background-color: #000000;
+  opacity: 0.95;
+}
+
+.loginModal .loginModalContent {
+  background-color: #ffffff;
+  margin: 5% auto 15% auto;
+  border: 2px solid #990000;
+  width: 70%;
+}
+
+.loginModal .loginModalContent .loginModalAvatar {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.loginModal .loginModalContent .loginModalAvatar .btnClose {
+  position: absolute;
+  right: 45px;
+  top: 0;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.loginModal .loginModalContent .loginModalAvatar .avatar {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.loginModal .loginModalContent .containerModal {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.loginModal .loginModalContent .containerModal .bottom {
+  padding-bottom: 16px;
+}
+
+.loginModal input {
+  width: 100%;
+  padding: 12px 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #990000;
+  box-sizing: border-box;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.loginModal label {
+  color: #ffffff;
+}
+
+.loginModal button {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 2px solid #990000;
+  cursor: pointer;
+  width: 100%;
+}
+
+.loginModal button :hover {
+  opacity: 0.9;
+}
+
+.loginModal .btnCancel, .loginModal .btnRecover {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #1a1a1a;
+  border: 2px solid #ffffff;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
