@@ -130,4 +130,7 @@ if (base_carousel.length) {
 }
 
 
+/* YEAR FOR FOOTER */
 $('#year').html(new Date().getFullYear());
+
+/* PAGINATION ON WOMEN PRODUCT PAGE */
