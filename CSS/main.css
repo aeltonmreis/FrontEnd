@@ -606,6 +606,10 @@ span {
   text-decoration: none;
 }
 
+.centeredContainer .pagination .active {
+  background-color: #990000;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
