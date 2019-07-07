@@ -45,6 +45,14 @@
   white-space: nowrap;
   overflow: hidden;
   display: block;
+  background-color: #990000;
+  color: #ffffff;
+  border: 1px solid #1a1a1a !important;
+  border-radius: 5% !important;
+  padding: 2px !important;
+  font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
+  text-align: center !important;
+  margin: 4px;
 }
 
 .prodGridImg {

@@ -2,19 +2,27 @@
   font-family: 'Montserrat', sans-serif !important;
 }
 
+.fa-twitter, .fa-instagram, .fa-facebook, .fa-search, .fa-user-circle, .fa-shopping-basket {
+  border: 1px solid #1a1a1a !important;
+  border-radius: 20% !important;
+  padding: 1px !important;
+  font-size: 18px !important;
+  text-align: center !important;
+}
+
 .accordionPersonalAMR {
   text-transform: uppercase;
 }
 
 .accordionPersonalAMR h2 {
-  background-color: #990000;
+  background-color: #1a1a1a;
   color: #ffffff !important;
   border-color: #1a1a1a !important;
   font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300))) !important;
 }
 
 .accordionPersonalAMR h2:active {
-  background-color: #990000;
+  background-color: #1a1a1a;
   color: #ffffff !important;
   border-color: #1a1a1a !important;
   font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300))) !important;
@@ -25,4 +33,47 @@
   border: 2px solid #1a1a1a !important;
   color: #ffffff;
   font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300))) !important;
+}
+
+.accordionPersonalAMR .ui-state-focus {
+  outline: none !important;
+}
+
+.about {
+  margin: 50px 0;
+}
+
+.about .wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.about .wrapper article {
+  font-size: 12px;
+  display: inline-block;
+  width: calc(50% - 10px);
+}
+
+.about .wrapper article:nth-of-type(1) {
+  margin-right: 20px;
+}
+
+.about .wrapper article img {
+  width: 100%;
+}
+
+.about .wrapper article h1 {
+  display: block;
+  margin: 20px 0;
+  font-size: 16px;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about .wrapper article p {
+  font-size: 14px;
+  color: #000;
 }

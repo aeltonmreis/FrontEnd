@@ -22,18 +22,28 @@ $green: #009933;
 $red:  #990000;
 $blueLight: #3DC0F1;
 
-* { font-family: 'Montserrat', sans-serif !important; }
+* { 
+font-family: 'Montserrat', sans-serif !important; 
+}
+
+.fa-twitter, .fa-instagram, .fa-facebook, .fa-search, .fa-user-circle, .fa-shopping-basket  {
+    border: 1px solid $greyDark !important;
+    border-radius: 20% !important;
+    padding: 1px !important;
+    font-size: 18px !important;
+    text-align:center !important;
+  }
 
 .accordionPersonalAMR {
     text-transform:uppercase;
     & h2 {
-        background-color:$red;
+        background-color:$greyDark;
         color:$white !important;
         border-color:$greyDark !important;
         font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300))) !important;
     }
     & h2:active {
-        background-color:$red;
+        background-color:$greyDark;
         color:$white !important;
         border-color:$greyDark !important;
         font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300))) !important;
@@ -44,4 +54,40 @@ $blueLight: #3DC0F1;
              color: $white;
              font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300))) !important;
         }
+    & .ui-state-focus {
+        outline: none !important;
     }
+    }
+
+    .about {
+        margin:50px 0;
+        .wrapper {
+          max-width:1100px;
+          margin:0 auto;
+          font-size:0;
+          article {
+            font-size:12px;
+            display:inline-block;
+            width:calc(50% - 10px);
+            &:nth-of-type(1){
+              margin-right:20px;
+            }
+            img {
+              width:100%;
+            }
+            h1{
+              display:block;
+              margin:20px 0;
+              font-size:16px;
+              color:#000;
+              text-transform:uppercase;
+              text-align: center;
+              text-transform: uppercase;
+            }
+            p{
+              font-size:14px;
+              color:#000;
+            }
+          }
+        }
+      }
