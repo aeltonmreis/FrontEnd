@@ -177,3 +177,9 @@ $('#btnPage1').click(function() {
 
     $('.toFadeInOut').fadeIn(2000);
 });
+
+
+/* ACCORDION JQUERY UI PLUGIN */
+$( function() {
+  $( "#accordion" ).accordion();
+} );
