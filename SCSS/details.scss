@@ -1,0 +1,61 @@
+$greyLight: #bfbfbf;
+$grey: #e6e6e6;
+$greyMid: #808080;
+$greyMid2: #a6a6a6;
+$greyDark: #1a1a1a;
+$white: #ffffff;
+$black: #000000;
+$orange: #ffa500;
+$green: #009933;
+$red:  #990000;
+$blueLight: #3DC0F1;
+
+$greyLight: #bfbfbf;
+$grey: #e6e6e6;
+$greyMid: #808080;
+$greyMid2: #a6a6a6;
+$greyDark: #1a1a1a;
+$white: #ffffff;
+$black: #000000;
+$orange: #ffa500;
+$green: #009933;
+$red:  #990000;
+$blueLight: #3DC0F1;
+
+* {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.detailsContainer {
+    .detailsWrapper {
+    //max-width:1100px;
+    margin:0 auto;
+    height:440px;
+    width: 100%;
+    // background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    position:relative;
+    background-image:url('/MEDIA/01_DETAILS.JPG');
+    border-top: 4px solid $greyDark;
+    border-bottom: 4px solid $greyDark;
+      ul {
+        position:absolute;
+        right:20px;
+        bottom:20px;
+        li {
+            width:80px;
+            height:80px;
+            border:3px solid $red;
+            display:block;
+            margin-top:10px;
+            //background:grey;
+            background-image:url('/MEDIA/001.JPG');
+            background-size: cover;
+        }
+         li:nth-child(odd) {
+            background-image:url('/MEDIA/002.JPG');
+        }
+      }
+    }
+  }

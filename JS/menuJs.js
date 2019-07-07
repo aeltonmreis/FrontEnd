@@ -176,6 +176,6 @@ $('#btnPage1').click(function() {
 
 
 /* ACCORDION JQUERY UI PLUGIN */
-$( function() {
+$(function() {
   $( "#accordion" ).accordion();
 } );

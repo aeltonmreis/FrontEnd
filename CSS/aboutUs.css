@@ -71,6 +71,8 @@
   text-transform: uppercase;
   text-align: center;
   text-transform: uppercase;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .about .wrapper article p {

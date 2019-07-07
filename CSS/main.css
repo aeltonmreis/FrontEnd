@@ -336,19 +336,21 @@ span {
   left: -2rem;
   font-size: 30px;
   color: #990000;
+  margin-left: 40px;
 }
 
 .owl-next {
   right: -2rem;
   font-size: 30px;
   color: #990000;
+  margin-right: 40px;
 }
 
 .flex {
   padding: 0;
   margin: 0;
   list-style: none;
-  margin-top: 20px;
+  margin-top: 45px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -710,11 +712,49 @@ span {
   text-transform: uppercase;
   text-align: center;
   text-transform: uppercase;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .about .wrapper article p {
   font-size: 14px;
   color: #000;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.detailsContainer .detailsWrapper {
+  margin: 0 auto;
+  height: 440px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-image: url("/MEDIA/01_DETAILS.JPG");
+  border-top: 4px solid #1a1a1a;
+  border-bottom: 4px solid #1a1a1a;
+}
+
+.detailsContainer .detailsWrapper ul {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.detailsContainer .detailsWrapper ul li {
+  width: 80px;
+  height: 80px;
+  border: 3px solid #990000;
+  display: block;
+  margin-top: 10px;
+  background-image: url("/MEDIA/001.JPG");
+  background-size: cover;
+}
+
+.detailsContainer .detailsWrapper ul li:nth-child(odd) {
+  background-image: url("/MEDIA/002.JPG");
 }
 
 * {

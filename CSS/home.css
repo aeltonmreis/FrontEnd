@@ -204,19 +204,21 @@ span {
   left: -2rem;
   font-size: 30px;
   color: #990000;
+  margin-left: 40px;
 }
 
 .owl-next {
   right: -2rem;
   font-size: 30px;
   color: #990000;
+  margin-right: 40px;
 }
 
 .flex {
   padding: 0;
   margin: 0;
   list-style: none;
-  margin-top: 20px;
+  margin-top: 45px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
