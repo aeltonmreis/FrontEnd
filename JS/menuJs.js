@@ -143,6 +143,8 @@ $('#year').html(new Date().getFullYear());
 /* AMOTAREIS - TO-DO: STUDY IMPLEMENTATION OF CLEANER APPROACH --> SRC NAME MATCHES "*.JPG" INCREMENT "_" ON NAME BEFORE ".JPG" */
 
 $('#btnPage2').click(function() {
+  $('.toFadeInOut').fadeOut(1000);
+
   $("#imgPaginationJs1").attr("src", "/MEDIA/01_.JPG");
     $("#imgPaginationJs2").attr("src", "/MEDIA/02_.JPG");
   $("#imgPaginationJs3").attr("src", "/MEDIA/03_.JPG");
@@ -151,9 +153,16 @@ $('#btnPage2').click(function() {
     $("#imgPaginationJs6").attr("src", "/MEDIA/06_.JPG");
   $("#imgPaginationJs7").attr("src", "/MEDIA/07_.JPG");
     $("#imgPaginationJs8").attr("src", "/MEDIA/08_.JPG");
+
+  $( "#btnPage2" ).addClass( "active" );
+  $( "#btnPage1" ).removeClass( "active" );
+
+  $('.toFadeInOut').fadeIn(2000);
 });
 
 $('#btnPage1').click(function() {
+  $('.toFadeInOut').fadeOut(1000);
+
   $("#imgPaginationJs1").attr("src", "/MEDIA/01.JPG");
     $("#imgPaginationJs2").attr("src", "/MEDIA/02.JPG");
   $("#imgPaginationJs3").attr("src", "/MEDIA/03.JPG");
@@ -162,4 +171,9 @@ $('#btnPage1').click(function() {
     $("#imgPaginationJs6").attr("src", "/MEDIA/06.JPG");
   $("#imgPaginationJs7").attr("src", "/MEDIA/07.JPG");
     $("#imgPaginationJs8").attr("src", "/MEDIA/08.JPG");
+
+    $( "#btnPage2" ).removeClass( "active" );
+    $( "#btnPage1" ).addClass( "active" );
+
+    $('.toFadeInOut').fadeIn(2000);
 });
