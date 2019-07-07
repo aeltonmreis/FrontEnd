@@ -71,6 +71,9 @@ margin: 0 auto;
   & p {
     margin-bottom: 35px;
   }
+  & .detailsText{
+    margin-bottom: 10px;
+  }
   & .heroBtn {
     // margin-bottom: 10px;
     border: 2px solid $black;
@@ -215,7 +218,7 @@ span {
   padding: 0;
   margin: 0;
   list-style: none;
-  margin-top: 45px;
+  margin-top: 50px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;

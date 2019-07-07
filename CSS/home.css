@@ -69,6 +69,10 @@ body {
   margin-bottom: 35px;
 }
 
+.hero .detailsText {
+  margin-bottom: 10px;
+}
+
 .hero .heroBtn {
   border: 2px solid #000000;
   padding: 10px;
@@ -218,7 +222,7 @@ span {
   padding: 0;
   margin: 0;
   list-style: none;
-  margin-top: 45px;
+  margin-top: 50px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;

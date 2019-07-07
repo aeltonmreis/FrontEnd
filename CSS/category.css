@@ -110,6 +110,7 @@
 
 .centeredContainer .pagination {
   display: inline-block;
+  margin-top: 15px;
 }
 
 .centeredContainer .pagination a {

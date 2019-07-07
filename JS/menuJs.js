@@ -198,3 +198,12 @@ $('#btnPage1').click(function() {
 $(function() {
   $( "#accordion" ).accordion();
 } );
+
+
+
+$(document).ready(function(){
+  var l = $('.caroulseAMR ul li').length;
+  var w = $('.caroulseAMR ul li').innerWidth();
+  var final = l*w;
+  $('.caroulseAMR ul').css('width', final);
+})
