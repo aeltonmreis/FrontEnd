@@ -28,25 +28,44 @@ $(document).ready(function() {
   $('#mailBtn').click(function(e) {
       e.preventDefault();
   });
+
   $('#btnPage1').click(function(e) {
     e.preventDefault();
   });
+
   $('#btnPage2').click(function(e) {
     e.preventDefault();
   });
-});
 
-$(document).ready(function() {
   $('#next').click(function(e) {
-      e.preventDefault();
+    e.preventDefault();
   });
+
+  $('#previous').click(function(e) {
+  e.preventDefault();
+  });
+
+  $('.size').click(function(e) {
+    e.preventDefault();
+    });
+
+    $('.addCard').click(function(e) {
+      e.preventDefault();
+      });
+
 });
 
-$(document).ready(function() {
-  $('#previous').click(function(e) {
-      e.preventDefault();
-  });
-});
+// $(document).ready(function() {
+//   $('#next').click(function(e) {
+//       e.preventDefault();
+//   });
+// });
+
+// $(document).ready(function() {
+//   $('#previous').click(function(e) {
+//       e.preventDefault();
+//   });
+// });
 
 $(document).ready(function(e) {
   $('#mailBtn').click(function() {

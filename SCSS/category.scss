@@ -121,7 +121,7 @@ $blueLight: #3DC0F1;
 
 .centeredContainer {
 	text-align: center;
-	margin-bottom: 100px;
+	margin-top: 10px;
 	& .pagination {
 		display: inline-block;
 		& a {
@@ -134,7 +134,18 @@ $blueLight: #3DC0F1;
 			background-color: $greyDark;
 			color: $white;
       text-decoration: none;
-    }
+	}
+	& .size {
+		color: $black;
+		float: left;
+		padding: 10px 14px;
+		transition: background-color 0.4s;
+		border: 1px solid $red;
+		margin: 0 4px;
+		background-color: $white;
+		color: $red;
+  text-decoration: none;
+}
     .active {
       background-color: $red;
     }

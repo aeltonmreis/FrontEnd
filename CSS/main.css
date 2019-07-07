@@ -616,7 +616,7 @@ span {
 
 .centeredContainer {
   text-align: center;
-  margin-bottom: 100px;
+  margin-top: 10px;
 }
 
 .centeredContainer .pagination {
@@ -632,6 +632,18 @@ span {
   margin: 0 4px;
   background-color: #1a1a1a;
   color: #ffffff;
+  text-decoration: none;
+}
+
+.centeredContainer .pagination .size {
+  color: #000000;
+  float: left;
+  padding: 10px 14px;
+  transition: background-color 0.4s;
+  border: 1px solid #990000;
+  margin: 0 4px;
+  background-color: #ffffff;
+  color: #990000;
   text-decoration: none;
 }
 
