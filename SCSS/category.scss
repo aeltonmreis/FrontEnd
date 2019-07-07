@@ -65,11 +65,11 @@ $blueLight: #3DC0F1;
 	display: block;
 	background-color: $red;
 	color: $white;
-	border: 1px solid $greyDark !important;
-    border-radius: 5% !important;
+	border: 4px solid $greyDark !important;
+    border-radius: 20% !important;
     padding: 2px !important;
-	// font-size: 18px !important;
-	font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
+	font-size: 16px !important;
+	// font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
 	text-align:center !important;
 	margin: 4px;
 }
