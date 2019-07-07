@@ -80,7 +80,7 @@ input:focus {
     width: 80%;
     left: calc(10% - 5px);
     right: 50%;
-    border-top: 2px solid $grey;
+    border-top: 2px solid $red;
     margin-top:100px;
 }
 }
@@ -119,5 +119,9 @@ input:focus {
     display: block;
   }
   #loginName2 {
+    display: none;
+  }
+
+  .adminNameDisplay {
     display: none;
   }

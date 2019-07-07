@@ -143,7 +143,6 @@ $('#year').html(new Date().getFullYear());
 /* AMOTAREIS - TO-DO: STUDY IMPLEMENTATION OF CLEANER APPROACH --> SRC NAME MATCHES "*.JPG" INCREMENT "_" ON NAME BEFORE ".JPG" */
 
 $('#btnPage2').click(function() {
-  $('.toFadeInOut').fadeOut(1000);
 
   $("#imgPaginationJs1").attr("src", "/MEDIA/01_.JPG");
     $("#imgPaginationJs2").attr("src", "/MEDIA/02_.JPG");
@@ -157,25 +156,22 @@ $('#btnPage2').click(function() {
   $( "#btnPage2" ).addClass( "active" );
   $( "#btnPage1" ).removeClass( "active" );
 
-  $('.toFadeInOut').fadeIn(2000);
 });
 
 $('#btnPage1').click(function() {
-  $('.toFadeInOut').fadeOut(1000);
 
-  $("#imgPaginationJs1").attr("src", "/MEDIA/01.JPG");
-    $("#imgPaginationJs2").attr("src", "/MEDIA/02.JPG");
-  $("#imgPaginationJs3").attr("src", "/MEDIA/03.JPG");
-    $("#imgPaginationJs4").attr("src", "/MEDIA/04.JPG");
-  $("#imgPaginationJs5").attr("src", "/MEDIA/05.JPG");
-    $("#imgPaginationJs6").attr("src", "/MEDIA/06.JPG");
-  $("#imgPaginationJs7").attr("src", "/MEDIA/07.JPG");
-    $("#imgPaginationJs8").attr("src", "/MEDIA/08.JPG");
+  $("#imgPaginationJs1").attr("src", "/MEDIA/01.JPG").fadeIn(1000);
+    $("#imgPaginationJs2").attr("src", "/MEDIA/02.JPG").fadeIn(1000);
+  $("#imgPaginationJs3").attr("src", "/MEDIA/03.JPG").fadeIn(1000);
+    $("#imgPaginationJs4").attr("src", "/MEDIA/04.JPG").fadeIn(1000);
+  $("#imgPaginationJs5").attr("src", "/MEDIA/05.JPG").fadeIn(1000);
+    $("#imgPaginationJs6").attr("src", "/MEDIA/06.JPG").fadeIn(1000);
+  $("#imgPaginationJs7").attr("src", "/MEDIA/07.JPG").fadeIn(1000);
+    $("#imgPaginationJs8").attr("src", "/MEDIA/08.JPG").fadeIn(1000);
 
     $( "#btnPage2" ).removeClass( "active" );
     $( "#btnPage1" ).addClass( "active" );
 
-    $('.toFadeInOut').fadeIn(2000);
 });
 
 
