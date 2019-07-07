@@ -5,7 +5,7 @@ body {
 }
 
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 .hero {
@@ -241,7 +241,7 @@ span {
 }
 
 .flex ul .amr {
-  font-family: 'Pacifico', sans-serif;
+  font-family: 'Pacifico', sans-serif !important;
   font-size: 10px;
 }
 

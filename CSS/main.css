@@ -1,5 +1,5 @@
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 input:focus {
@@ -125,7 +125,7 @@ body {
 }
 
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 .hero {
@@ -361,12 +361,16 @@ span {
 }
 
 .flex ul .amr {
-  font-family: 'Pacifico', sans-serif;
+  font-family: 'Pacifico', sans-serif !important;
   font-size: 10px;
 }
 
 #year {
   color: #990000;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 .loginModal {
@@ -492,6 +496,10 @@ span {
   }
 }
 
+* {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
 .cat {
   text-align: center !important;
   font-size: 30px !important;
@@ -611,8 +619,37 @@ span {
 }
 
 * {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.accordionPersonalAMR {
+  text-transform: uppercase;
+}
+
+.accordionPersonalAMR h2 {
+  background-color: #990000;
+  color: #ffffff !important;
+  border-color: #1a1a1a !important;
+  font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300))) !important;
+}
+
+.accordionPersonalAMR h2:active {
+  background-color: #990000;
+  color: #ffffff !important;
+  border-color: #1a1a1a !important;
+  font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300))) !important;
+}
+
+.accordionPersonalAMR div {
+  background-color: #1a1a1a !important;
+  border: 2px solid #1a1a1a !important;
+  color: #ffffff;
+  font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300))) !important;
+}
+
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
 }

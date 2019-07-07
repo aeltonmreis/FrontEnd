@@ -10,6 +10,10 @@ $green: #009933;
 $red:  #990000;
 $blueLight: #3DC0F1;
 
+*{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
 .loginModal{
 display: none;
 position: fixed;

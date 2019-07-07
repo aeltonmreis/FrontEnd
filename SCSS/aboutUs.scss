@@ -1,0 +1,47 @@
+$greyLight: #bfbfbf;
+$grey: #e6e6e6;
+$greyMid: #808080;
+$greyMid2: #a6a6a6;
+$greyDark: #1a1a1a;
+$white: #ffffff;
+$black: #000000;
+$orange: #ffa500;
+$green: #009933;
+$red:  #990000;
+$blueLight: #3DC0F1;
+
+$greyLight: #bfbfbf;
+$grey: #e6e6e6;
+$greyMid: #808080;
+$greyMid2: #a6a6a6;
+$greyDark: #1a1a1a;
+$white: #ffffff;
+$black: #000000;
+$orange: #ffa500;
+$green: #009933;
+$red:  #990000;
+$blueLight: #3DC0F1;
+
+* { font-family: 'Montserrat', sans-serif !important; }
+
+.accordionPersonalAMR {
+    text-transform:uppercase;
+    & h2 {
+        background-color:$red;
+        color:$white !important;
+        border-color:$greyDark !important;
+        font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300))) !important;
+    }
+    & h2:active {
+        background-color:$red;
+        color:$white !important;
+        border-color:$greyDark !important;
+        font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300))) !important;
+    }
+            & div {
+            background-color: $greyDark !important;
+             border: 2px solid $greyDark !important;
+             color: $white;
+             font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300))) !important;
+        }
+    }

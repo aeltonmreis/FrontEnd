@@ -16,7 +16,7 @@ margin: 0 auto;
 }
 
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 .hero {
@@ -232,7 +232,7 @@ span {
     color: $black;
   }
   & .amr{
-    font-family: 'Pacifico', sans-serif;
+    font-family: 'Pacifico', sans-serif !important;
     font-size: 10px;
   }
 }
